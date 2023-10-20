@@ -1,0 +1,20 @@
+<!-- templates/display.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Display</title>
+</head>
+<body>
+    <h1>Image Display</h1>
+    <img src="/static/uploads/IMG_20231007_134108.jpg" alt="Uploaded Image">
+
+    <!-- Iterate through image paths and display images -->
+    {% for image_path in image_paths %}
+        <!-- Output image path using correct Jinja syntax -->
+        <img src="{{ image_path }}" alt="Uploaded Image">
+    {% endfor %}
+</body>
+</html>

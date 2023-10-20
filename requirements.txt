@@ -1,0 +1,5 @@
+pip~=23.2.1
+keyring~=18.0.1
+setuptools~=68.2.2
+flask~=3.0.0
+pymongo~=4.5.0
